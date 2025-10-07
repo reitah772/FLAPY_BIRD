@@ -1,0 +1,16 @@
+html,body {
+  height:100%;
+  margin:0;
+  background: linear-gradient(#86c5ff,#bfe9ff);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#game {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+canvas {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+}
